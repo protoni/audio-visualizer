@@ -8,7 +8,7 @@ from asciimatics.effects import Effect
 SAMPLE_RATE = 44100  # Sampling rate (samples per second)
 CHUNK = 1024  # Number of audio samples per frame
 
-sd.default.device = 'YOUR_DEVICE_NAME_OR_INDEX'
+sd.default.device = 0
 
 class AudioVisualizerEffect(Effect):
     def __init__(self, screen):
